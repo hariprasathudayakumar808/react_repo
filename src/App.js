@@ -19,7 +19,7 @@ const App = () => {
   };
   const handleSubmit = async () => {
     if (!resumeFile || !jobDescription) {
-      alert("Please upload a resume and enter a job description.");
+      alert("Please upload a resume in pdf and enter a job description.");
       return;
     }
   
