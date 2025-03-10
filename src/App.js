@@ -3,7 +3,7 @@ import "./App.css"; // Import custom CSS
 const App = () => {
   const [resumeFile, setResumeFile] = useState(null);
   const [jobDescription, setJobDescription] = useState("");
-  const [result, setResult] = useState("Waiting for comparison...");
+  const [result, setResult] = useState("Waiting for comparison....");
   
   useEffect(() => {
     // Simulating a result on page load
